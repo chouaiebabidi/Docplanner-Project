@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: worksans;
+    src: url(./WorkSans-Hairline.otf);
+}
+
+.doclogo {
+    width: 268px;
+    height: 33px;
+    margin-left: 179px;
+}
+
+.navlinks {
+    display: block;
+    color: #ababab;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+    font-size: .9375rem;
+}
+
+.divnav {
+    margin-right: 200px;
+    margin-top: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif, worksans;
+}
+
+.navlinks:hover {
+    color: #00b39b
+}
+
+.h1logo {
+    display: flex;
+    color: #00b39b;
+    justify-content: center;
+    margin: 1em 0;
+    font-family: worksans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+.p1 {
+    display: flex;
+    width: 400px;
+    border: 15px;
+    padding: 50px;
+    margin-left: 190px;
+}
+
+.p2 {
+    display: flex;
+    margin-top: -197px;
+    margin-right: 220px;
+    float: right;
+    width: 400px;
+    border: 15px;
+    padding: 50px;
+}
+
+.fsth2 {
+    background-color: #00ccb1;
+    opacity: 1;
+    transform: translate(0);
+    transition-delay: .25s;
+    padding: 2.375em 4.25em 0;
+    border-radius: 10px;
+    width: 14%;
+    height: 270px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all .2s ease 0s;
+    font-size: small;
+    float: left;
+    color: white;
+    margin-left: 15%;
+}
+
+.fsth2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.sech2 {
+    background-color: #3d83df;
+    opacity: 1;
+    transform: translate(0);
+    transition-delay: .25s;
+    padding: 2.375em 4.25em 0;
+    border-radius: 10px;
+    width: 14%;
+    height: 270px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    font-size: small;
+    float: left;
+    color: white;
+    margin-left: 5%;
+}
+
+.thrh2 {
+    background-color: #1b2734;
+    opacity: 1;
+    transform: translate(0);
+    transition-delay: .25s;
+    padding: 2.375em 4.25em 0;
+    border-radius: 10px;
+    width: 14%;
+    height: 270px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    font-size: small;
+    float: left;
+    color: white;
+    margin-left: 5%;
+}
+
+.box select {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    font-size: 15px;
+
+
+}
+
+.box select option {
+    color: black;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+}
+
+
+.section_2 h1 {
+    float: left;
+    width: auto;
+    font-size: 1.625em;
+    color: #00b39b;
+    font-family: worksans;
+    width: 210px;
+
+}
+
+.section_2 {
+    display: grid;
+    grid-template-columns: 15% 70%;
+    grid-template-rows: 400px;
+    margin-left: 217px;
+    height: 157px;
+}
+
+.brand-logo {
+    list-style: none;
+}
+
+.brand-logo li {
+    font-size: 16px;
+    display: inline-block;
+    padding-right: 5px;
+    margin-left: 100px;
+}
+
+.brand-logo li:hover svg {
+    fill: #00b39b;
+}
+
+.brand-logo li svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    fill: #747474;
+}
+
+.slogan-text {
+    color: #00b39b;
+    font-family: worksans;
+}
+
+#statis-slogan {
+    font-size: 2.125rem;
+    width: 413px;
+    margin-left: 195px;
+    font-weight: bolder;
+}
+
+.statis-section {
+    padding-top: 70px;
+    background-color: #b5ddd8;
+    display: flex;
+}
+
+.statis-desc {
+    font-family: Roboto, Arial, sans-serif;
+    margin-left: 195px;
+    margin-top: 30px;
+    color: #747474;
+
+}
+
+.container {
+    background-color: #3d83df;
+}
+
+.dplogo-statis {
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.divright h1 {
+    display: flex;
+    justify-content: center;
+    font-family: worksans;
+    color: #00ccb1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.divright p {
+    color: #ababab;
+}
+
+.divright {
+
+    height: 630px;
+    width: 220px;
+
+    margin-left: 30px;
+    display: flex;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 230px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    font-size: .9000em;
+}
+
+.b img {
+    margin-left: 85px;
+    width: 50px;
+    height: 50px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divnoright h1 {
+    display: flex;
+    justify-content: center;
+    font-family: worksans;
+    color: #00ccb1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.divnoright {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 230px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    font-size: .9000em;
+    margin-left: 30px;
+}
+
+.divnoright p {
+    color: #ababab;
+}
+
+.divbr {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 230px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    font-size: .9000em;
+    margin-left: 30px;
+}
+
+.divbr h1 {
+    display: flex;
+    justify-content: center;
+    font-family: worksans;
+    color: #00ccb1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.divbr p {
+    color: #ababab;
+}
+
+/*-----------------------------------------*/
+.other h1 {
+    font-family: worksans;
+    color: #00b39b;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.titles {
+    margin-top: 70px;
+}
+
+.para {
+    color: #ababab;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 15px;
+
+}
+
+.para p {
+    width: 506px;
+    margin-top: 30px;
+}
